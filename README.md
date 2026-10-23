@@ -29,3 +29,8 @@ Protótipo inicial de interface e voz. Ainda não é um assistente completo, nã
 2. Testar fala para texto e resposta falada em português.
 3. Adicionar configuração segura de um provedor de IA.
 4. Implementar comandos Android individuais, com confirmação quando necessário.
+
+
+## Arquitetura inspirada no HuggingGPT
+
+A primeira versão do JARVIS pode adotar um ciclo de controlador + ferramentas: reconhecer a fala, interpretar a intenção, selecionar uma ferramenta permitida, executar e responder por voz. Veja [a proposta de arquitetura](docs/ARQUITETURA_HUGGINGGPT.md). Esta é uma adaptação simplificada, não a implementação completa do artigo.
